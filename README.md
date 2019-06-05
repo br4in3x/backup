@@ -1,8 +1,8 @@
 ### Backup
 
-This is Postgres and Files backup script. Backups are being uploaded to Amazon S3 bucket.
+This is Postgres and Files backup script. Backups are being uploaded to Amazon S3 bucket. It will only leave 5 most recent copies on your local machine.
 
-Example usage:
+#### Usage:
 
 ```bash
 LOCAL_STORAGE=/home/backups \
